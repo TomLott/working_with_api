@@ -1,17 +1,18 @@
-  spring:
-    datasource:
-      port: 5432
-      host: localhost
-      databaseName: postgres
-      username: postgres
-      password: password
-      url: jdbc:postgresql://${spring.datasource.host}:${spring.datasource.port}/${spring.datasource.databaseName}
-  jpa:
-    hibernate:
-      ddl-auto: create-drop
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        format_sql: true
-    show-sql: true
-
+#  spring:
+#    datasource:
+#      port: 5432
+#      host: localhost
+#      databaseName: postgres
+#      username: postgres
+#      password: password
+#      url: jdbc:postgresql://${spring.datasource.host}:${spring.datasource.port}/${spring.datasource.databaseName}
+#  jpa:
+#    hibernate:
+#      ddl-auto: create-drop
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#        format_sql: true
+#    show-sql: true
+api:
+  key: ce6fdb80d068d9d1019cc6397378aaec
