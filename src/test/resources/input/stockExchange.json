@@ -1,0 +1,9 @@
+{
+  "name": "NASDAQ Stock Exchange",
+  "acronym": "NASDAQ",
+  "mic": "XNAS",
+  "country": "USA",
+  "country_code": "US",
+  "city": "New York",
+  "website": "www.nasdaq.com"
+}
